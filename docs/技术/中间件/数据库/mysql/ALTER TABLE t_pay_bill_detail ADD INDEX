@@ -1,3 +1,0 @@
-ALTER TABLE t_pay_bill_detail ADD INDEX idx_billId(bill_id);
-
-ALTER TABLE t_pay_bill_sub_detail ADD INDEX idx_billId(bill_id),ADD INDEX idx_balanceId(balance_id), ADD INDEX idx_detailId(detail_id);
